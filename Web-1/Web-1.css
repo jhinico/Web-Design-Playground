@@ -1,36 +1,54 @@
+.body-1 {
+    background: linear-gradient(135deg, #f2b7d5, #a4bfe9, #f2b7d5);
+}
+
 .header-1{
-    background-color:skyblue;
-    padding: 0.1em;
+    background: linear-gradient(180deg, skyblue, #B8CFFF, #E6B8F5);
+    border-radius: 15px;
+    padding: 5px;
 }
 
 #line-1 {
-    border:1px solid black;
+    height: 3px;
+    border: none;
+    background: linear-gradient(90deg, pink, magenta, purple);
+    background-size: 200% 100%;
 }
 
 #p-1 {
-    background-color: skyblue;
+    background: linear-gradient(90deg, skyblue, lightgray, lightyellow, lightgreen);
     text-align: justify;
 }
 
 #p-2 {
-    background-color: lightgray;
+    background: linear-gradient(90deg, lightgray, lightyellow, lightgreen, skyblue);
     text-align: center;
 }
 
 #p-3 {
-    background-color: lightyellow;
+    background: linear-gradient(90deg, lightyellow, lightgreen, skyblue, lightgray);
     text-align: right;
 }
 
 #p-4 {
-    background-color: lightgreen;
+    background: linear-gradient(90deg, lightgreen, skyblue, lightgray, lightyellow);
     text-align: left;
 }
 
 .footer-1 {
-    background-color: skyblue;
-    padding: 0.1em;
+    border-radius: 15px;
+    background: linear-gradient(90deg, skyblue, #B8CFFF, #E6B8F5);
+    padding: 10px;
 }
 #line-2 {
+    border:1px solid black;
+}
+
+.header-2 {
+    background-color: lightpurple;
+    padding: 0.1em;
+}
+
+#line-1.1 {
     border:1px solid black;
 }
