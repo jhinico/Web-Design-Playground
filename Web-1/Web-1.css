@@ -16,7 +16,8 @@
 }
 
 .p-bg {
-    border-radius: 10px;
+    border-radius: 15px;
+    margin: 0px;
     padding: 5px;
 }
 
@@ -53,6 +54,7 @@
 }
 
 .m-1 {
+    margin:5px;
     background: linear-gradient(135deg, #6088c8, #f2b7d5, #6088c8);
     border-radius: 15px;
 }
